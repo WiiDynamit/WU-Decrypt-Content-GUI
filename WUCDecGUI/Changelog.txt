@@ -1,0 +1,31 @@
+﻿*********
+* 0.10.0 *
+*********
+
+- Update:	Created a groupebox containing checkboxes telling the user what file(s) that have been selected
+
+- Update:	Automatic search for second file is now performed (if selecting the tik-file it will try find the tmd-file)
+
+- Update:	Common-Key path is now stored in SystemRegistry under "HKEY_CURRENT_USER\SOFTWARE\Dynamit\WU_Decrypt Content GUI"
+
+- Update:	Now only one credit Window could be open if exists already it will be put to the top
+
+- Fixed:	Cleaned up the main form source code and created an Class-Library containing the main stuff.
+
+*********
+* 0.5.1 *
+*********
+
+- Fixed:	Argument parsed to cdecrypt allows space in the directory name thanks to Swizzy for detecting the bug.
+
+- Fixed:	The location of Content to be decrypted is now allowed to be anywhere not only workdir of WU_Decrypt Content GUI.
+
+- Fixed:	The bug that cause not to be able to decrypt several Contents in a row without exit the software first is now fixed.
+
+- Update:	Now checking if all the needed files have been selected so we know the path before try to decrypt.
+
+*********
+*  0.5  *
+*********
+
+- Initial releas.
